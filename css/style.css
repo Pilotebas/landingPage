@@ -22,6 +22,12 @@ body{
     height: 64px;
     background-color: white;
 }
+.container_left{
+    width: 720px;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+}
 .left_arriba{
     width: 720px;
     height: 640px;
@@ -43,6 +49,7 @@ body{
     line-height: 85px;
     font-size: 65px;
     padding-bottom: 5px;
+    /* -webkit-text-stroke: 2px black;  */
 }
 .parrafo{
     height: 66px;
@@ -78,4 +85,20 @@ body{
     background-image: url(../storage/img/right.png);
     width: 720px;
     height: 960px;
+}
+.left_abajo{
+    width: 720px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+}
+.abajo_left{
+    width:360px;
+    height: 320px;
+    background-image: url(../storage/img/abajoleft.png);
+}
+.right_abajo{
+    width:360px;
+    height: 320px;
+    background-image: url(../storage/img/abajoright.png);
 }
