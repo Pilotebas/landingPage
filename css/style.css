@@ -4,31 +4,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 1440px;
-    height: 1024;
-    margin: 0 auto;
-}
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-header{
-    width: 1440px;
-    height: 64px;
-    background-color: #ffffff;
-}
-.containerleft{
-    width: 720px;
-    height: 960px;
-}
-.containerright{
-    width: 240px;
-    height: 960px;
-    background-image: url(../storage/img/Image\ righthello.png) center / cover no-repeat;
-}
-.arriba{
-    background-image: url(../storage/img/Image\ leftarriba\ \(2\).png) center / cover no-repeat;
-    width: 240px;
-}
