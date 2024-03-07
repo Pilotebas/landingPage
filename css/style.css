@@ -1,24 +1,78 @@
 @import url(variable.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     width: 1440px;
     height: 1024px;
     margin: 0 auto;
+    background-color: #E5E5E5;
+
 }
 .container{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .header{
     width: 1440px;
     height: 64px;
-    background-color: black;
+    background-color: white;
+}
+.left_arriba{
+    width: 720px;
+    height: 640px;
+    background-image: url(../storage/img/arriba.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_arriba{
+    width: 591px;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titulo h1{
+    color:white;
+    font-family: "Bitter";
+    line-height: 85px;
+    font-size: 65px;
+    padding-bottom: 5px;
+}
+.parrafo{
+    height: 66px;
+    color:white;
+    font-family: "Space Mono";
+    padding-left: 4px;
+    word-spacing: 10px;
+    font-size: 19px ;
+    line-height: 35px;
+}
+.boton{
+    width: 200px;
+    height: 65px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.boton h2{
+    font-family: "Space Mono";
+    font-size: 19px;
+    color: black;
+    line-height: 35px;
+    font-weight: lighter;
+}
+.containerright{ 
+    width: 720px;
+    height: 960px;
 }
 .imagen{
     background-image: url(../storage/img/right.png);
