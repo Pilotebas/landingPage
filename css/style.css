@@ -10,8 +10,18 @@ body{
     height: 1024px;
     margin: 0 auto;
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .header{
     width: 1440px;
     height: 64px;
     background-color: black;
+}
+.imagen{
+    background-image: url(../storage/img/right.png);
+    width: 720px;
+    height: 960px;
 }
