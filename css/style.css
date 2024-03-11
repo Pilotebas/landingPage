@@ -1,1 +1,68 @@
 @import url(variable.css);
+body{
+    background-color: rgb(179, 172, 172);
+}
+.container{
+    width: 1440px;
+    height: 926px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #9C2004;
+}
+.imagen{
+    width: 784px;
+    height: 926px;
+    display: flex;
+    align-items: end;
+}
+.imagen img{
+    width: 656px;
+    height: 861.5px;
+    margin: 0 auto;
+}
+.derecha{
+    width: 656px;
+    height: 926px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido{
+    width: 487px;
+    height: 674px;
+}
+.titulo{
+    width: 487px;
+    height: 416px;
+}
+.titulo h1{
+    font-family: 'Work Sans';
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.texto{
+    width: 487px;
+    height: 96px;
+}
+.texto h3{
+    font-family: 'Work Sans';
+    color: white;
+    font-size: 23px;
+    margin: 0;
+
+}
+.boton button{
+    width: 231px;
+    height: 82px;
+    background-color: #E5B94B;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Work Sans';
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+}
