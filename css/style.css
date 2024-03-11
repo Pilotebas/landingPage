@@ -1,1 +1,10 @@
 @import url(variable.css);
+body{
+    background-color: rgb(182, 178, 178);
+}
+.container{
+    width: 1440px;
+    height: 994px;
+    background-color: white;
+    margin: 0 auto;
+}
