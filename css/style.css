@@ -31,6 +31,9 @@ body{
 .contenido{
     width: 487px;
     height: 674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .titulo{
     width: 487px;
@@ -42,6 +45,7 @@ body{
     font-size: 80px;
     font-weight: bold;
     margin: 0;
+    line-height: 100px;
 }
 .texto{
     width: 487px;
@@ -51,6 +55,7 @@ body{
     font-family: 'Work Sans';
     color: white;
     font-size: 23px;
+    font-weight: 300;
     margin: 0;
 
 }
@@ -61,8 +66,8 @@ body{
     border: none;
     border-radius: 30px;
     font-family: 'Work Sans';
-    font-size: 23px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 500;
     cursor: pointer;
     margin: 0 auto;
 }
